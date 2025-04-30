@@ -5,18 +5,18 @@ All tests were written and executed in Visual Studio Code, and test case documen
 
 _Features_
 
--Smoke test for search functionality
--5 test cases covering menu content list
--3 test cases for feedback functionality
--Tests written and automated using Cypress
--Runs tests using specifically Google Chrome v135
+1. Smoke test for search functionality
+2. 5 test cases covering menu content list
+3. 3 test cases for feedback functionality
+4. Tests written and automated using Cypress
+5. Runs tests using specifically Google Chrome v135
 
 _Tech Stack_
 
--Cypress
--Javascript
--VS Code
--Qase.io for test case management
+1. Cypress
+2. Javascript
+3. VS Code
+4. Qase.io for test case management
 
 _Installation_
 
@@ -47,13 +47,14 @@ _Running Tests_
 _Test Management_
 
 All test cases for this project are documented in Qase.io:
--Smoke test: Search functionality
--Functional tests:
--Header Testing (6 cases + 1 bug report)
--Menu content list (8 cases)
--Feedback functionality (3 cases)
--"Kreiraj objekat" functionality (2 cases + 1 bug report)
--"Predloži ideju - Pošalji komentar" functionality (3 cases + 1 bug report)
+
+1. Smoke test: Search functionality
+2. Functional tests:
+3. Header Testing (6 cases + 1 bug report)
+4. Menu content list (8 cases)
+5. Feedback functionality (3 cases)
+6. "Kreiraj objekat" functionality (2 cases + 1 bug report)
+7. "Predloži ideju - Pošalji komentar" functionality (3 cases + 1 bug report)
 
 _License_
 
