@@ -38,5 +38,13 @@ class categoriesPage {
   checkboxSuggestions() {
     return cy.get('.red > input');
   }
+
+  searchResult_1() {
+    return cy.contains('p', 'Pansion "Sebilj"');
+  }
+
+  searchResult_2() {
+    return cy.get('div[id*="ember"] p').eq(1);
+  }
 }
 module.exports = new categoriesPage();
