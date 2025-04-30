@@ -3,7 +3,7 @@ describe('navigator', () => {
     cy.searchFunctionality();
   });
 
-  it('Menu content list', () => {
+  it('categories', () => {
     cy.clickOnCoffeeMenuList();
   });
 

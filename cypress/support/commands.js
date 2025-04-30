@@ -18,7 +18,7 @@ Cypress.Commands.add('searchFunctionality', () => {
     categoriesPage.searchIcon().should('be.visible').click();
   });
 
-  Cypress.Commands.add('clickOnCoffeeMenuList', () => {
+  Cypress.Commands.add('categories', () => {
     categoriesPage.coffeeMenuList().click({ force: true });
     coffeePage.selectOptionMenuList().click({ force: true });
 
